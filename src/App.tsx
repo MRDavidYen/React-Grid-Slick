@@ -1,24 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import listData from "./const/data.json"
+import Slider from './dist/main';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
       </header>
+      <Slider>
+        {
+          listData.List.map((item, index: number) => {
+            return (
+              <div key={index}>
+                {item.Title}
+              </div>
+            )
+          })
+        }
+      </Slider>
     </div>
   );
 }
