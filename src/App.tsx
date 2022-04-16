@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.css'
 import listData from "./const/data.json"
-import Slider from './dist/main';
+import Slider from './dist/main'
+import styles from "./global/app.module.css"
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         {
           listData.List.map((item, index: number) => {
             return (
-              <div key={index}>
+              <div key={index} className={`${styles.slick_items}`}>
                 {item.Title}
               </div>
             )

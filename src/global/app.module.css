@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=app.module.css.map */
+.slick_items {
+  height: 300px;
+  -webkit-box-shadow: 0 0 1px 5px #acacac;
+          box-shadow: 0 0 1px 5px #acacac;
+}
+/*# sourceMappingURL=app.module.css.map */

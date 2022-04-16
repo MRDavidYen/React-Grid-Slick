@@ -1,4 +1,8 @@
-.main {
+.main .slick_container {
   width: 100%;
+  display: -ms-grid;
+  display: grid;
+  padding: 1rem 0;
+  overflow: hidden;
 }
 /*# sourceMappingURL=main.module.css.map */
