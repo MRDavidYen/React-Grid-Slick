@@ -1,0 +1,21 @@
+.main {
+    width: 100%;
+}
+
+.reply {
+    text-align: left;
+}
+
+.reply>div>div {
+    border-bottom: 1px solid rgb(179, 179, 179);
+    margin: 0.125rem 0;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form textarea {
+    width: 100%;
+}

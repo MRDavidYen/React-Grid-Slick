@@ -39,5 +39,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.8.0",
+    "cypress": "^9.6.1",
+    "sass": "^1.51.0"
   }
 }
